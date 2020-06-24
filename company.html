@@ -1,0 +1,207 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+    
+        }
+        #first{
+            
+            background: url("static/images/3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+        
+    
+        #navbar {
+            display: flex;
+    
+    
+        }
+    
+        #logo {
+            margin: 25px 69px;
+    
+    
+        }
+    
+        #logo img {
+            height: 69px;
+            margin: -22px 38px;
+    
+    
+    
+        }
+    
+        #navbar ul {
+            display: flex;
+            position: relative;
+            left: 300px;
+    
+    
+        }
+    
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 53%;
+            width: 100%;
+            z-index: -1;
+    
+    
+        }
+    
+        #navbar ul li {
+            list-style: none;
+            font-size: 1rem;
+            padding: 21px;
+            color: white;
+    
+        }
+    
+        #navbar ul li:hover {
+            cursor: pointer;
+    
+        }
+        .item5:hover{
+            background-color: orange ;
+    
+        }
+    
+    
+    
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 16px 200px;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+       
+    
+        .button {
+            margin: 20px 0px;
+            height: 35px;
+            width: 195px;
+            border-radius: 10px;
+            border: darkgrey;
+            background-color: orange;
+            cursor: pointer;
+    
+    
+        }
+    
+        .button:hover {
+            background-color: rgb(219, 150, 22);
+        }
+        .heading1 {
+            padding: 0px 0px 20px 0px;
+            font-size: 40px;
+            color:white;
+        }
+    
+        .heading2 {
+            font-size: 30px;
+            color:white;
+        }
+    
+        .heading3 {
+            font-size: 18px;
+            color: white;
+        }
+    
+        .heading3 a {
+            text-decoration: none;
+            color: orange;
+    
+        }
+    
+        .heading3 a:hover {
+            text-decoration: underline;
+    
+        }
+        .sub1{
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            font-size: 15px;
+            font-weight: 500;
+            color: white;
+            border-radius: 5px;
+        }
+        .sub2{
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            font-size: 15px;
+            font-weight: 500;
+            color: white;
+            border-radius: 5px;
+        }
+        .sub1:hover{
+            background-color: rgb(235, 22, 22);
+            border-radius: 20px;
+        }
+        .sub2:hover{
+            background-color: rgb(235, 22, 22);
+            border-radius: 20px;
+        }
+        h3{
+            margin-left: 10px;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .item:hover{
+      background-color: orange;
+        }
+    </style>
+    
+    <body>
+        <div id=first>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="download-removebg-preview.png" alt="MarketSmith India">
+            </div>
+            <ul>
+                <li class="item">Product &#x25BE</li>
+                <li class="item">Education &#x25BE</li>
+                <li class="item">Support &#x25BE</li>
+                <li class="item">About Us &#x25BE</li>
+                <li class="item5">logo &#x25BE</li>
+            </ul>
+    
+    
+        </nav>
+        <section id="home">
+            <h1 class="heading1">Our methodology brings great ideas into focus</h1>
+            <h4 class="heading2"> We cut through market noise to deliver actionable investment ideas.</h4>
+            <button class="button">CREATE ACCOUNT</button>
+            <h4 class="heading3">Already a member? <a href="#">Sign in </a></h4>
+    
+        </section>
+    
+    <h3>    Also available at</h3>
+    <div class="buttons">
+        <button class=sub1>Download on the App Store</button>
+        <button class=sub2>Get it on Google Play</button>
+    </div>
+    
+
+
+        </div>
+
+      
+    </body>
+    
+    </html>
